@@ -1,7 +1,7 @@
 ---
 title: "Relational Heritage Spaces"
 year: 2026
-venue: "Workshop, 27 January 2026, University of Groningen"
+venue: "Workshop, 27 January, University of Groningen"
 type: event
 authors: "Shanade Barnabas, Manuela Ritondale, Sabina Rosenbergova"
 doi: "https://research.rug.nl/en/activities/relational-heritage-spaces/"
