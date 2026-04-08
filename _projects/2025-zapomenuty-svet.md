@@ -4,7 +4,7 @@ year: 2025
 venue: "Re:vize, 8#, Re: Žena a Práce"
 type: article
 authors: "Sabina Rosenbergova"
-doi: "https://www.revize-casopis.cz"
+doi: "https://www.revize-casopis.cz/vsechny-clanky/zapad-vsechny-clanky/zapomenuty-svet/)"
 doi_label: "Open Access"
 funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
 img: "zapomenuty-svet.png"
