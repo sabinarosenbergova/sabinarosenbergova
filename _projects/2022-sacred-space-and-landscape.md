@@ -5,7 +5,7 @@ venue: "Pre-doctoral Fellowship, Bibliotheca Hertziana, Max-Planck Institute for
 type: grant
 authors: "Sabina Rosenbergova"
 funded_by: "https://www.biblhertz.it"
-img: "Screenshot-2025-03-27-at-18.59.55.png"
+img: "sacred-space-and-landscape.png"
 order: 7
 ---
 

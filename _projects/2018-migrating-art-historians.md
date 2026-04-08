@@ -8,7 +8,7 @@ doi: "https://www.viella.it/libro/9788833131054"
 doi_label: "Purchase"
 tool_url: "https://www.academia.edu/38013127/Migrating_Art_Historians"
 tool_label: "Read Introduction"
-img: "Screenshot-2025-03-28-at-10.35.17.png"
+img: "migrating-art-historians.png"
 order: 8
 ---
 

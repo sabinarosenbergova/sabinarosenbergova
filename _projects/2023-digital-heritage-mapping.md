@@ -8,7 +8,7 @@ doi: "https://doi.org/10.1484/M.CONVISUP-EB.5.137364"
 doi_label: "Open Access"
 tool_url: "https://www.google.com/maps/d/u/0/viewer"
 tool_label: "Interactive Map"
-img: "Conques_map.png"
+img: "digital-heritage-mapping.png"
 order: 5
 ---
 

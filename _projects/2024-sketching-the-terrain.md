@@ -6,7 +6,7 @@ type: event
 authors: "Andrew Irving, Shanade Barnabas, Sabina Rosenbergova, Lidewijde de Jong"
 doi: "[centre-for-religion-and-heritage](https://www.rug.nl/research/centre-for-religious-studies/research-centres/centre-religion-heritage/?lang=en)"
 doi_label: "Learn More"
-img: "Sketching-the-Terrain.png"
+img: "sketching-the-terrain.png"
 order: 3
 ---
 
