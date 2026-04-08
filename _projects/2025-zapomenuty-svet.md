@@ -7,6 +7,7 @@ authors: "Sabina Rosenbergova"
 doi: "https://www.revize-casopis.cz"
 doi_label: "Open Access"
 funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
+img: "revize.png"
 order: 1
 ---
 

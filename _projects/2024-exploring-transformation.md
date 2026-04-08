@@ -6,7 +6,7 @@ type: grant
 authors: "Sabina Rosenbergova"
 affiliation: "Center for Religion and Heritage, University of Groningen"
 funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
-img: "Screenshot-2025-03-30-at-22.05.51.png"
+img: "Essen_museum_1950.png"
 order: 4
 ---
 
