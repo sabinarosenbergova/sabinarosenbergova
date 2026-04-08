@@ -7,6 +7,7 @@ authors: "Ivan Foletti, Adrien Palladino, Adrian Bremenkamp, Philippe Cordez, Vi
 doi: "https://doi.org/10.5817/CZ.MUNI.M280-0677-2025"
 doi_label: "Open Access"
 funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
+img: "conques-across-time.png"
 order: 2
 ---
 
