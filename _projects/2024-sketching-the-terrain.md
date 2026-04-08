@@ -4,7 +4,7 @@ year: 2024
 venue: "Symposium, 16 October 2024, Groningen"
 type: event
 authors: "Andrew Irving, Shanade Barnabas, Sabina Rosenbergova, Lidewijde de Jong"
-doi: "https://www.rug.nl/research/centre-for-religious-studies"
+doi: "[centre-for-religion-and-heritage](https://www.rug.nl/research/centre-for-religious-studies/research-centres/centre-religion-heritage/?lang=en)"
 doi_label: "Learn More"
 order: 3
 ---
