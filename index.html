@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sabina Rosenbergova — Art History, Museum Studies, and Cultural Heritage</title>
+  <meta name="description" content="Sabina Rosenbergova is an Assistant Professor of Cultural Heritage at the University of Groningen, Faculty of Campus Fryslan, and MSCA Postdoctoral Fellow.">
+  <meta name="author" content="Sabina Rosenbergova">
+  <meta name="keywords" content="Sabina Rosenbergova, art history, museum studies, cultural heritage, gender, medieval, pilgrimage, Conques, University of Groningen, MSCA">
+  <link rel="canonical" href="https://sabinarosenbergova.github.io">
+  <meta property="og:title" content="Sabina Rosenbergova — Art History, Museum Studies, and Cultural Heritage">
+  <meta property="og:description" content="Sabina Rosenbergova is an Assistant Professor of Cultural Heritage at the University of Groningen and MSCA Postdoctoral Fellow.">
+  <meta property="og:url" content="https://sabinarosenbergova.github.io">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="index, follow">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sabina Rosenbergova",
+    "url": "https://sabinarosenbergova.github.io",
+    "jobTitle": "Assistant Professor of Cultural Heritage",
+    "affiliation": [
+      { "@type": "Organization", "name": "University of Groningen", "url": "https://www.rug.nl/research/centre-for-religious-studies" }
+    ],
+    "sameAs": [
+      "https://www.rug.nl/research/centre-for-religious-studies",
+      "https://www.linkedin.com/in/sabinarosenbergova/",
+      "https://www.academia.edu"
+    ],
+    "knowsAbout": ["Art History", "Museum Studies", "Cultural Heritage", "Medieval Studies", "Gender Studies", "Pilgrimage"]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root {
+      --font: "Nunito", sans-serif;
+      --small: 0.78rem;
+      --base: 0.9rem;
+    }
+    html { font-size: 16px; }
+    body {
+      font-family: var(--font);
+      font-size: var(--base);
+      line-height: 1.5;
+      color: #000;
+      background: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    a { color: inherit; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Two-panel layout ── */
+    .page {
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      min-height: 100vh;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* ── Left: publications ── */
+    .publications {
+      padding: 2rem 2.5rem 4rem 2rem;
+      border-right: 1px solid rgba(0,0,0,0.1);
+    }
+
+    /* ── Filter bar ── */
+    .filters {
+      font-size: var(--small);
+      margin-bottom: 1.5rem;
+      color: rgba(0,0,0,0.5);
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid rgba(0,0,0,0.15);
+    }
+    .filters span { margin-right: 0.3rem; }
+    .filters a {
+      margin: 0 0.3rem;
+      color: rgba(0,0,0,0.5);
+      cursor: pointer;
+    }
+    .filters a:hover,
+    .filters a.active { color: #000; text-decoration: underline; }
+
+    /* ── Each project row ── */
+    .project {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 2rem;
+      padding: 1.5rem 0;
+      align-items: start;
+      border-top: 1px solid rgba(0,0,0,0.12);
+    }
+    .project:first-of-type { border-top: none; }
+
+    .col-meta .type-tag {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: rgba(0,0,0,0.35);
+      margin-bottom: 0.25rem;
+    }
+    .col-meta .venue {
+      font-size: var(--small);
+      font-style: italic;
+      color: rgba(0,0,0,0.55);
+    }
+    .col-meta .year {
+      font-size: var(--small);
+      color: rgba(0,0,0,0.4);
+      margin: 0.1rem 0;
+    }
+    .col-meta h2 {
+      font-size: var(--base);
+      font-weight: 500;
+      margin: 0.3rem 0 0.3rem;
+      line-height: 1.35;
+    }
+    .col-meta .authors {
+      font-size: var(--small);
+      color: rgba(0,0,0,0.6);
+      font-style: italic;
+      margin-bottom: 0.5rem;
+    }
+    .col-meta .meta-links { margin-top: 0.5rem; }
+    .col-meta .meta-links a {
+      display: block;
+      font-size: var(--small);
+      color: rgba(0,0,0,0.45);
+      text-decoration: underline;
+      margin-bottom: 0.2rem;
+      word-break: break-all;
+    }
+    .col-meta .meta-links a:hover { color: #000; }
+    .col-meta .link-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: rgba(0,0,0,0.3);
+      display: block;
+      margin-top: 0.4rem;
+    }
+
+    .col-desc p {
+      font-size: var(--small);
+      margin: 0 0 0.7rem;
+      color: rgba(0,0,0,0.75);
+      line-height: 1.65;
+    }
+    .col-desc p:last-child { margin-bottom: 0; }
+    .col-desc em { font-style: italic; }
+    .col-desc strong { font-weight: 500; }
+
+    /* ── Right: sticky sidebar ── */
+    .sidebar {
+      padding: 2rem 1.5rem 4rem 2rem;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    .sidebar h1 {
+      font-size: 1.8rem;
+      font-weight: 500;
+      line-height: 1.2;
+      margin: 0 0 1.2rem;
+    }
+
+    .sidebar .bio {
+      font-size: var(--small);
+      line-height: 1.65;
+      color: rgba(0,0,0,0.8);
+      margin-bottom: 1.5rem;
+    }
+    .sidebar .bio p { margin: 0 0 0.8rem; }
+    .sidebar .bio p:last-child { margin-bottom: 0; }
+    .sidebar .bio strong { font-weight: 500; color: #000; }
+
+    .sidebar .sidebar-links {
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(0,0,0,0.1);
+    }
+    .sidebar .sidebar-links a {
+      display: block;
+      font-size: var(--small);
+      color: rgba(0,0,0,0.55);
+      margin-bottom: 0.35rem;
+      text-decoration: underline;
+    }
+    .sidebar .sidebar-links a:hover { color: #000; }
+
+    .sidebar .icons {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 1.2rem;
+    }
+    .sidebar .icons a {
+      display: flex;
+      opacity: 0.4;
+      padding: 2px;
+    }
+    .sidebar .icons a:hover { opacity: 1; text-decoration: none; }
+    .sidebar .icons svg { width: 16px; height: 16px; fill: currentColor; }
+
+    /* ── Responsive ── */
+    @media (max-width: 800px) {
+      .page {
+        grid-template-columns: 1fr;
+      }
+      .publications {
+        padding: 1.5rem 1rem;
+        border-right: none;
+      }
+      .sidebar {
+        position: static;
+        height: auto;
+        padding: 1.5rem 1rem 2rem;
+        border-top: 1px solid rgba(0,0,0,0.1);
+        order: -1;
+      }
+      .project {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- ── Left: Publications ── -->
+  <main class="publications">
+
+    <nav class="filters">
+      <span>Filter by:</span>
+      <a href="#" class="active" data-filter="all">All</a> |
+      <a href="#" data-filter="article">Articles</a> |
+      <a href="#" data-filter="book">Books</a> |
+      <a href="#" data-filter="grant">Grants</a> |
+      <a href="#" data-filter="event">Events</a>
+    </nav>
+
+    <div id="projects">
+      {% assign projects = site.projects | sort: "order" %}
+      {% for project in projects %}
+      <div class="project" data-type="{{ project.type }}">
+
+        <div class="col-meta">
+          <div class="type-tag">{{ project.type }}</div>
+          <h2>{{ project.title }}</h2>
+          {% if project.authors %}<div class="authors">{{ project.authors }}</div>{% endif %}
+          {% if project.venue %}<div class="venue">{{ project.venue }}</div>{% endif %}
+          {% if project.year %}<div class="year">{{ project.year }}</div>{% endif %}
+
+          <div class="meta-links">
+            {% if project.doi %}
+              <span class="link-label">{{ project.doi_label | default: "Link" }}</span>
+              <a href="{{ project.doi }}" target="_blank">{{ project.doi }}</a>
+            {% endif %}
+            {% if project.tool_url %}
+              <span class="link-label">{{ project.tool_label | default: "Tool" }}</span>
+              <a href="{{ project.tool_url }}" target="_blank">{{ project.tool_url }}</a>
+            {% endif %}
+            {% if project.funded_by %}
+              <span class="link-label">Funded by</span>
+              <a href="{{ project.funded_by }}" target="_blank">{{ project.funded_by }}</a>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="col-desc">
+          {{ project.content | markdownify }}
+        </div>
+
+      </div>
+      {% endfor %}
+    </div>
+
+  </main>
+
+  <!-- ── Right: Sidebar ── -->
+  <aside class="sidebar">
+    <h1>Sabina<br>Rosenbergova</h1>
+
+    <div class="bio">
+      <p>Sabina is an <strong>Assistant Professor of Cultural Heritage</strong> at the University of Groningen, serving the multi-disciplinary faculty of Campus Fryslan.</p>
+
+      <p>She is a laureate of the prestigious <strong>MSCA Postdoctoral Fellowship</strong>. Her project "Transformation of Female Religious Spaces and Objects into Modern Museum Contexts" combines <strong>art history, museum, and heritage studies</strong> with a gender lens to investigate how historical spaces and artifacts are transformed when integrated into modern cultural institutions. The <strong>Center for Religion and Heritage</strong>, within the Faculty of Religion, Culture, and Society hosts her research at the University of Groningen.</p>
+
+      <p>She earned her <strong>Ph.D. in Art History</strong> from Sapienza University of Rome and Masaryk University in Brno in 2023, with a thesis offering a reappraisal of 10th-century art and culture in Rome.</p>
+
+      <p>Sabina has a <strong>strong international research background</strong>, having contributed to projects across Italy, Czechia, France, Netherlands and the USA. She was a researcher on the MSCA Horizon Project "Conques in the Global World," a Pre-doc Fellow at the Max Planck Institute for Art History – Bibliotheca Hertziana in Rome, and a visiting scholar at CUNY in New York.</p>
+    </div>
+
+    <div class="sidebar-links">
+      <a href="https://www.rug.nl/research/centre-for-religious-studies" target="_blank">University of Groningen</a>
+      <a href="https://www.linkedin.com/in/sabinarosenbergova/" target="_blank">LinkedIn</a>
+      <a href="https://www.academia.edu" target="_blank">Academia.edu</a>
+    </div>
+
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/sabinarosenbergova/" target="_blank" title="LinkedIn">
+        <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="https://www.academia.edu" target="_blank" title="Academia.edu">
+        <svg viewBox="0 0 24 24"><path d="M12.575 0L0 4.91v1.272h1.044c.61 0 .89.34 1.018.9l2.494 14.613c.085.492.254.73.636.9L8.55 24h6.918l3.357-1.405c.382-.17.55-.408.636-.9l2.494-14.612c.127-.56.407-.9 1.018-.9H24V4.91L12.575 0zm.034 2.12l7.63 2.79h-6.85L12.61 2.12zm-6.85 2.79l7.63-2.79-1.016 2.79H5.76zm7.082 1.272l-1.272 5.564-1.272-5.564h2.544zm-5.1 0h2.29l1.4 6.12-3.69-6.12zm7.908 0h2.29l-3.69 6.12 1.4-6.12z"/></svg>
+      </a>
+    </div>
+
+    <div style="margin-top: 3rem; font-size: 0.7rem; color: rgba(0,0,0,0.25); text-transform: uppercase; letter-spacing: 0.08em;">
+      Academic Portfolio
+    </div>
+  </aside>
+
+</div>
+
+<script>
+  document.querySelectorAll('.filters a').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelectorAll('.filters a').forEach(function(l) { l.classList.remove('active'); });
+      this.classList.add('active');
+      var filter = this.dataset.filter;
+      document.querySelectorAll('.project').forEach(function(p) {
+        p.style.display = (filter === 'all' || p.dataset.type === filter) ? '' : 'none';
+      });
+    });
+  });
+</script>
+
+</body>
+</html>

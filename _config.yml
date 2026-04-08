@@ -1,0 +1,15 @@
+title: Sabina Rosenbergova
+description: Art History, Museum Studies, and Cultural Heritage
+url: https://sabinarosenbergova.github.io
+
+collections:
+  projects:
+    output: false
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: null
