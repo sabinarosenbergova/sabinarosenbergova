@@ -8,6 +8,7 @@ doi: "https://doi.org/10.1484/M.CONVISUP-EB.5.137364"
 doi_label: "Open Access"
 tool_url: "https://www.google.com/maps/d/u/0/viewer"
 tool_label: "Interactive Map"
+img: "Screenshot-2025-03-27-at-18.58.06.png"
 order: 5
 ---
 
