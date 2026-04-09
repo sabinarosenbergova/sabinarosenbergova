@@ -225,13 +225,14 @@
       {% for project in projects %}
       <div class="project" data-type="{{ project.type }}">
 
-        <!-- Col 1: title, authors, affiliation, image -->
+        <!-- Col 1: title, image, authors, citation -->
         <div class="col-left">
           <h2>{{ project.title }}</h2>
-          {% if project.authors %}<div class="authors">{{ project.authors }}</div>{% endif %}
-          {% if project.affiliation %}<div class="affiliation">{{ project.affiliation }}</div>{% endif %}
           {% if project.img %}
           <img class="proj-img" src="images/{{ project.img }}" alt="{{ project.title }}" loading="lazy">
+          {% endif %}
+          {% if project.authors and project.authors != "Sabina Rosenbergova" %}
+          <div class="authors">{{ project.authors | replace: "Sabina Rosenbergova", "<strong>Sabina Rosenbergova</strong>" | replace: "Sabina Rosenbergová", "<strong>Sabina Rosenbergová</strong>" }}</div>
           {% endif %}
           {% if project.citation %}<p class="citation">{{ project.citation }}</p>{% endif %}
         </div>

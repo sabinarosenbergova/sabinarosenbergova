@@ -3,13 +3,13 @@ title: "Conques Across Time. Inventions and Reinventions (9th–21st Centuries)"
 year: 2025
 venue: "Rome/Brno"
 type: book
-authors: "Ivan Foletti, Adrien Palladino, Adrian Bremenkamp, Philippe Cordez, Vincent Debiais, Cynthia Hahn, Lei Huang, Martin Lešák, Janet Marquardt, Kris Racaniello, Sabina Rosenbergová, Eric Sparhubert, Pavla Tichá, Michele Luigi Vescovi, Cécile Voyer"
+authors: "Ivan Foletti, Adrien Palladino, Adrian Bremenkamp et al., incl. Sabina Rosenbergova"
 doi: "https://doi.org/10.5817/CZ.MUNI.M280-0677-2025"
 doi_label: "Open Access"
 funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
 img: "conques-across-time.png"
 contribution: "Contributing author — chapter on sacred landscape and pilgrimage routes around Conques"
-citation: "Edited volume · Rome / Brno · 2025 · Ivan Foletti et al., eds."
+citation: "Edited volume · Rome / Brno · 2025"
 order: 2
 ---
 

@@ -3,14 +3,14 @@ title: "Migrating Art Historians on the Sacred Ways"
 year: 2018
 venue: "Rome/Brno"
 type: book
-authors: "Ivan Foletti, Adrien Palladino, Katarína Kravčíková, Sabina Rosenbergova, Eds."
+authors: "Ivan Foletti, Adrien Palladino, Katarína Kravčíková, Sabina Rosenbergova, Eds"
 doi: "https://www.viella.it/libro/9788833131054"
 doi_label: "Purchase"
 tool_url: "https://www.academia.edu/38013127/Migrating_Art_Historians"
 tool_label: "Read Introduction"
 img: "migrating-art-historians.png"
-contribution: "Co-editor and contributing author — also participated in the pilgrimage walk"
-citation: "Edited volume · Rome / Brno · 2018 · Foletti, Palladino, Kravčíková, Rosenbergova, eds."
+contribution: "Co-editor, contributing author, and participant in the 1500 km pilgrimage walk"
+citation: "Edited volume · Rome / Brno · 2018"
 order: 8
 ---
 
