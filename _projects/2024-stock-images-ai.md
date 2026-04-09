@@ -4,7 +4,7 @@ year: 2024
 type: article
 authors: "Alberto Romele, Dario Rodighiero, Sabina Rosenbergová"
 doi: "https://research.rug.nl/files/1461694983/11.-Romele-et-al.pdf"
-doi_label: "Download PDF"
+doi_label: "Open Access"
 extra_url: "https://www.eticapubblica.it/alberto-romele-dario-rodighiero-sabina-rosenbergova-ethical-and-aesthetical-questions-on-stock-images-the-case-of-ais-depictions/"
 extra_label: "Journal page"
 img: "Ethical-and-Aesthetical-Questions-on-Stock-Images.webp"
