@@ -75,12 +75,12 @@
     }
 
     /* Col 1: meta + image */
-    .col-left h2 {
+    .col-mid h2 {
       font-size: calc(var(--base) + 2px);
       font-family: Georgia, "Times New Roman", serif;
       font-weight: 600;
       line-height: 1.3;
-      margin: 0 0 0.3rem;
+      margin: 0 0 0.75rem;
     }
     .col-left .authors {
       font-size: var(--sm);
@@ -227,9 +227,9 @@
       {% for project in projects %}
       <div class="project" data-type="{{ project.type }}">
 
-        <!-- Col 1: title, image, authors, citation -->
+        <!-- Col 1: contribution, image, authors, citation -->
         <div class="col-left">
-          <h2>{{ project.title }}</h2>
+          {% if project.contribution %}<p class="contribution">{{ project.contribution }}</p>{% endif %}
           {% if project.img %}
           <img class="proj-img" src="images/{{ project.img }}" alt="{{ project.title }}" loading="lazy">
           {% endif %}
@@ -239,9 +239,9 @@
           {% if project.citation %}<p class="citation">{{ project.citation }}</p>{% endif %}
         </div>
 
-        <!-- Col 2: contribution line + description + links -->
+        <!-- Col 2: title + description + links -->
         <div class="col-mid">
-          {% if project.contribution %}<p class="contribution">{{ project.contribution }}</p>{% endif %}
+          <h2>{{ project.title }}</h2>
           <div class="desc">
             {{ project.content | markdownify }}
           </div>
