@@ -4,7 +4,7 @@ year: 2025
 venue: "Rome/Brno"
 type: book
 authors: "Ivan Foletti, Adrien Palladino, Adrian Bremenkamp et al., incl. Sabina Rosenbergova"
-doi: "https://doi.org/10.5817/CZ.MUNI.M280-0677-2025"
+doi: "https://is.muni.cz/publication/2472951/Book_Conques.pdf"
 doi_label: "Open Access"
 funded_by: "https://cordis.europa.eu/project/id/101007770"
 img: "conques-across-time.png"
