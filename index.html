@@ -64,10 +64,10 @@
     .filters a:hover,
     .filters a.active { color: #111; text-decoration: underline; }
 
-    /* ── Each project: 3-column card ── */
+    /* ── Each project: 2-column card ── */
     .project {
       display: grid;
-      grid-template-columns: 200px 1fr 110px;
+      grid-template-columns: 200px 1fr;
       gap: 0 1.5rem;
       padding: 1.8rem 0;
       border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -118,35 +118,25 @@
     .col-mid .desc em { font-style: italic; }
     .col-mid .desc strong { font-weight: 500; color: #111; }
 
-    /* Col 3: link icons */
-    .col-right { text-align: left; }
-    .col-right .link-block {
-      margin-bottom: 1rem;
+    /* Entry links — below description */
+    .entry-links {
+      margin-top: 0.85rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem 0;
     }
-    .col-right .link-icon {
-      width: 28px;
-      height: 28px;
-      margin-bottom: 0.3rem;
-      opacity: 0.35;
-    }
-    .col-right .link-label {
-      font-size: var(--xs);
-      font-weight: 600;
-      color: rgba(0,0,0,0.55);
-      display: block;
-      margin-bottom: 0.15rem;
-      text-transform: none;
-      letter-spacing: 0;
-    }
-    .col-right .link-url {
-      font-size: var(--xs);
-      color: rgba(0,0,0,0.4);
+    .entry-links a {
+      font-size: var(--sm);
+      color: rgba(0,0,0,0.5);
       text-decoration: underline;
-      word-break: break-all;
-      display: block;
-      line-height: 1.4;
+      text-underline-offset: 2px;
     }
-    .col-right .link-url:hover { color: #111; }
+    .entry-links a:hover { color: #111; }
+    .entry-links .sep {
+      color: rgba(0,0,0,0.25);
+      margin: 0 0.5rem;
+      font-size: var(--sm);
+    }
 
     /* ── Right: sticky sidebar ── */
     .sidebar {
@@ -197,10 +187,6 @@
       .publications { border-right: none; padding: 1.5rem 1rem; }
       .sidebar { position: static; height: auto; padding: 2rem 1rem; border-top: 2px solid rgba(0,0,0,0.08); order: -1; }
       .project { grid-template-columns: 1fr; }
-      .col-right { display: flex; gap: 1.5rem; flex-wrap: wrap; }
-    }
-    @media (max-width: 650px) {
-      .project { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -234,7 +220,7 @@
           {% endif %}
         </div>
 
-        <!-- Col 2: venue/year + description -->
+        <!-- Col 2: venue/year + description + links -->
         <div class="col-mid">
           <div class="venue-year">
             {% if project.venue %}{{ project.venue }}{% endif %}{% if project.venue and project.year %}, {% endif %}{% if project.year %}{{ project.year }}{% endif %}
@@ -242,42 +228,23 @@
           <div class="desc">
             {{ project.content | markdownify }}
           </div>
-        </div>
-
-        <!-- Col 3: links with icons -->
-        <div class="col-right">
-          {% if project.doi %}
-          <div class="link-block">
-            {% if project.type == 'book' %}
-            <!-- book icon -->
-            <svg class="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-            {% elsif project.type == 'article' %}
-            <!-- lines/document icon -->
-            <svg class="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12h6M9 16h6M9 8h6M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg>
-            {% else %}
-            <!-- generic link icon -->
-            <svg class="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          {% if project.doi or project.tool_url or project.funded_by %}
+          <div class="entry-links">
+            {% assign shown = 0 %}
+            {% if project.doi %}
+              {% if shown > 0 %}<span class="sep">·</span>{% endif %}
+              <a href="{{ project.doi }}" target="_blank">{{ project.doi_label | default: "Link" }}</a>
+              {% assign shown = shown | plus: 1 %}
             {% endif %}
-            <span class="link-label">{{ project.doi_label | default: "Link" }}</span>
-            <a class="link-url" href="{{ project.doi }}" target="_blank">{{ project.doi }}</a>
-          </div>
-          {% endif %}
-
-          {% if project.tool_url %}
-          <div class="link-block">
-            <!-- tool/map icon -->
-            <svg class="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>
-            <span class="link-label">{{ project.tool_label | default: "Tool" }}</span>
-            <a class="link-url" href="{{ project.tool_url }}" target="_blank">{{ project.tool_url }}</a>
-          </div>
-          {% endif %}
-
-          {% if project.funded_by %}
-          <div class="link-block">
-            <!-- badge/funded icon -->
-            <svg class="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
-            <span class="link-label">Funded by</span>
-            <a class="link-url" href="{{ project.funded_by }}" target="_blank">{{ project.funded_by }}</a>
+            {% if project.tool_url %}
+              {% if shown > 0 %}<span class="sep">·</span>{% endif %}
+              <a href="{{ project.tool_url }}" target="_blank">{{ project.tool_label | default: "Tool" }}</a>
+              {% assign shown = shown | plus: 1 %}
+            {% endif %}
+            {% if project.funded_by %}
+              {% if shown > 0 %}<span class="sep">·</span>{% endif %}
+              <a href="{{ project.funded_by }}" target="_blank">Funded by MSCA</a>
+            {% endif %}
           </div>
           {% endif %}
         </div>
