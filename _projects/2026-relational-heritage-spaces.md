@@ -15,8 +15,4 @@ citation: "Workshop · University of Groningen · 27 January 2026"
 order: 0
 ---
 
-Together with Shanade Barnabas and Manuela Ritondale, I co-convened this full-day workshop as a founding step toward establishing the Netherlands Chapter of the Association of Critical Heritage Studies. 
-
-Held at the University of Groningen, the event brought together scholars and practitioners from across the Netherlands to develop a shared agenda for critical heritage research. 
-
-Keynote lectures by Hester Dibbits (Reinwardt Academy) and Cindy Zalm (Wereldmuseum Amsterdam) opened the conversation, followed by group discussions on how heritage spaces are shaped by — and in turn shape — social, cultural, and political relations.
+Together with Shanade Barnabas and Manuela Ritondale, I co-convened this full-day workshop as a founding step toward establishing the Netherlands Chapter of the Association of Critical Heritage Studies. Held at the University of Groningen, the event brought together scholars and practitioners from across the Netherlands to develop a shared agenda for critical heritage research. Keynote lectures by Hester Dibbits (Reinwardt Academy) and Cindy Zalm (Wereldmuseum Amsterdam) opened the conversation, followed by group discussions on how heritage spaces are shaped by — and in turn shape — social, cultural, and political relations.
