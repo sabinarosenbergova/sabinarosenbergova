@@ -99,7 +99,7 @@
     .col-left .proj-img {
       width: 90%;
       display: block;
-      margin-top: 0.5rem;
+      margin-top: 0;
     }
     .col-left .citation {
       font-size: 0.88em;
@@ -227,9 +227,8 @@
       {% for project in projects %}
       <div class="project" data-type="{{ project.type }}">
 
-        <!-- Col 1: contribution, image, authors, citation -->
+        <!-- Col 1: image, authors, citation -->
         <div class="col-left">
-          {% if project.contribution %}<p class="contribution">{{ project.contribution }}</p>{% endif %}
           {% if project.img %}
           <img class="proj-img" src="images/{{ project.img }}" alt="{{ project.title }}" loading="lazy">
           {% endif %}
@@ -239,9 +238,10 @@
           {% if project.citation %}<p class="citation">{{ project.citation }}</p>{% endif %}
         </div>
 
-        <!-- Col 2: title + description + links -->
+        <!-- Col 2: title + contribution + description + links -->
         <div class="col-mid">
           <h2>{{ project.title }}</h2>
+          {% if project.contribution %}<p class="contribution">{{ project.contribution }}</p>{% endif %}
           <div class="desc">
             {{ project.content | markdownify }}
           </div>
