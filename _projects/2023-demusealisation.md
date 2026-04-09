@@ -8,6 +8,8 @@ affiliation: "Center for Religion and Heritage, University of Groningen & Museum
 doi: "https://www.rug.nl/research/centre-for-religious-studies"
 doi_label: "Learn More"
 img: "demusealisation.png"
+contribution: "Co-organized international symposium with Museum Catharijneconvent, Utrecht"
+citation: "Symposium · Museum Catharijneconvent, Utrecht · 22–23 March 2023"
 order: 6
 ---
 

@@ -8,6 +8,8 @@ doi: "https://www.revize-casopis.cz/vsechny-clanky/zapad-vsechny-clanky/zapomenu
 doi_label: "Open Access"
 funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
 img: "zapomenuty-svet.png"
+contribution: "Sole-authored public essay on the erasure of women's labor in secularized convent collections"
+citation: "Re:vize, vol. 8 · Special issue: Women and Work · 2025"
 order: 1
 ---
 

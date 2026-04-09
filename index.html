@@ -99,14 +99,20 @@
       display: block;
       margin-top: 0.5rem;
     }
+    .col-left .citation {
+      font-size: 0.8em;
+      color: #999;
+      margin-top: 0.5em;
+      line-height: 1.5;
+    }
 
-    /* Col 2: venue/year header + description */
-    .col-mid .venue-year {
-      font-size: var(--sm);
+    /* Col 2: contribution line + description */
+    .col-mid .contribution {
       font-style: italic;
-      color: rgba(0,0,0,0.55);
-      margin-bottom: 0.75rem;
-      font-weight: 400;
+      color: #555;
+      font-size: 0.95em;
+      margin-bottom: 0.75em;
+      line-height: 1.5;
     }
     .col-mid .desc p {
       font-size: var(--sm);
@@ -229,13 +235,12 @@
           {% if project.img %}
           <img class="proj-img" src="images/{{ project.img }}" alt="{{ project.title }}" loading="lazy">
           {% endif %}
+          {% if project.citation %}<p class="citation">{{ project.citation }}</p>{% endif %}
         </div>
 
-        <!-- Col 2: venue/year + description + links -->
+        <!-- Col 2: contribution line + description + links -->
         <div class="col-mid">
-          <div class="venue-year">
-            {% if project.venue %}{{ project.venue }}{% endif %}{% if project.venue and project.year %}, {% endif %}{% if project.year %}{{ project.year }}{% endif %}
-          </div>
+          {% if project.contribution %}<p class="contribution">{{ project.contribution }}</p>{% endif %}
           <div class="desc">
             {{ project.content | markdownify }}
           </div>

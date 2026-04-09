@@ -8,6 +8,8 @@ doi: "https://doi.org/10.5817/CZ.MUNI.M280-0677-2025"
 doi_label: "Open Access"
 funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
 img: "conques-across-time.png"
+contribution: "Contributing author — chapter on sacred landscape and pilgrimage routes around Conques"
+citation: "Edited volume · Rome / Brno · 2025 · Ivan Foletti et al., eds."
 order: 2
 ---
 

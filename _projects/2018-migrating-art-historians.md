@@ -9,6 +9,8 @@ doi_label: "Purchase"
 tool_url: "https://www.academia.edu/38013127/Migrating_Art_Historians"
 tool_label: "Read Introduction"
 img: "migrating-art-historians.png"
+contribution: "Co-editor and contributing author — also participated in the pilgrimage walk"
+citation: "Edited volume · Rome / Brno · 2018 · Foletti, Palladino, Kravčíková, Rosenbergova, eds."
 order: 8
 ---
 

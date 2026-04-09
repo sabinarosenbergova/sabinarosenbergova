@@ -9,6 +9,8 @@ doi_label: "Open Access"
 tool_url: "https://www.google.com/maps/d/u/0/viewer"
 tool_label: "Interactive Map"
 img: "digital-heritage-mapping.png"
+contribution: "Sole-authored article with accompanying interactive digital mapping tool"
+citation: "Convivium, vol. 10 · 2023"
 order: 5
 ---
 
