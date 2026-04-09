@@ -5,7 +5,7 @@ venue: "Postdoctoral Fellowship – Marie Skłodowska-Curie Actions, 2024–2028
 type: grant
 authors: "Sabina Rosenbergova"
 affiliation: "Center for Religion and Heritage, University of Groningen"
-funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
+funded_by: "https://cordis.europa.eu/project/id/101147187"
 img: "exploring-transformation.png"
 contribution: "MSCA Postdoctoral Fellow · Principal Investigator"
 citation: "Postdoctoral research project · Center for Religion and Heritage · University of Groningen · 2024–2028"

@@ -6,7 +6,7 @@ type: book
 authors: "Ivan Foletti, Adrien Palladino, Adrian Bremenkamp et al., incl. Sabina Rosenbergova"
 doi: "https://doi.org/10.5817/CZ.MUNI.M280-0677-2025"
 doi_label: "Open Access"
-funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
+funded_by: "https://cordis.europa.eu/project/id/101147187"
 img: "conques-across-time.png"
 contribution: "Contributing author"
 citation: "Edited volume · Rome / Brno · 2025"

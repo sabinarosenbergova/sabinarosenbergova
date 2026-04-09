@@ -8,7 +8,7 @@ doi: "https://www.revize-casopis.cz/vsechny-clanky/zapad-vsechny-clanky/zapomenu
 doi_label: "Open Access"
 video_url: "https://www.revize-casopis.cz/mediateka/☆-𝙧𝙚𝙫𝙞𝙯𝙚-a-jejich-autori-☆-sabina-rosenbergova/"
 video_label: "Video"
-funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
+funded_by: "https://cordis.europa.eu/project/id/101147187"
 img: "zapomenuty-svet.png"
 contribution: "Sole author · Public essay"
 citation: "Re:vize, vol. 8 · Special issue: Women and Work · 2025"
