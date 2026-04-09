@@ -213,8 +213,7 @@
     <nav class="filters">
       <span>Filter by:</span>
       <a href="#" class="active" data-filter="all">All</a> |
-      <a href="#" data-filter="article">Articles</a> |
-      <a href="#" data-filter="book">Books</a> |
+      <a href="#" data-filter="article,book">Articles &amp; Books</a> |
       <a href="#" data-filter="grant">Grants</a> |
       <a href="#" data-filter="event">Events</a>
     </nav>
@@ -317,8 +316,9 @@
       document.querySelectorAll('.filters a').forEach(function(l) { l.classList.remove('active'); });
       this.classList.add('active');
       var filter = this.dataset.filter;
+      var filters = filter.split(',');
       document.querySelectorAll('.project').forEach(function(p) {
-        p.style.display = (filter === 'all' || p.dataset.type === filter) ? '' : 'none';
+        p.style.display = (filter === 'all' || filters.indexOf(p.dataset.type) !== -1) ? '' : 'none';
       });
     });
   });
