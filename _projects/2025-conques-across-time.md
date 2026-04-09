@@ -6,17 +6,11 @@ type: book
 authors: "Ivan Foletti, Adrien Palladino, Adrian Bremenkamp et al., incl. Sabina Rosenbergova"
 doi: "https://doi.org/10.5817/CZ.MUNI.M280-0677-2025"
 doi_label: "Open Access"
-funded_by: "https://cordis.europa.eu/project/id/101147187"
+funded_by: "https://cordis.europa.eu/project/id/101007770"
 img: "conques-across-time.png"
-contribution: "Contributing author"
+contribution: "Contributing author · Peer-reviewed"
 citation: "Edited volume · Rome / Brno · 2025"
 order: 2
 ---
 
-Conques, a small town of extraordinary medieval significance, has long captivated scholars and visitors alike. Renowned for its abbey church, an unparalleled collection of goldsmiths' treasures, and a rich history of reinventions, Conques offers a unique lens through which to explore the intersections of art and history, both medieval and neo-medieval.
-
-In this volume, leading experts chart its transformation from a medieval monastic center to a modern cultural landmark, illuminating both its origins and its reinventions across the centuries. Spanning the Middle Ages to the twenty-first century, the book—the first comprehensive monograph on the site—examines the architecture, legendary histories, and strategies of representation that shaped Conques' medieval identity, alongside modern interpretations molded by nineteenth-century restorations, twentieth-century presentations, and Pierre Soulages' celebrated engagement with the site.
-
-The result is a rigorous yet accessible reassessment of the myths surrounding medieval art and its modern reinterpretations. At its heart, this volume reveals Conques as more than a historic site—it is a living testament to the enduring interplay between medieval heritage and contemporary imagination, challenging us to rethink the narratives that define the medieval past in today's world.
-
-*This volume is a principal outcome of the four-year research project Conques in the Global World: Transferring Knowledge from Material to Immaterial Heritage (2020–2024) funded by the European Research Executive Agency through the Marie Skłodowska-Curie Action.*
+This volume — the first comprehensive monograph on Conques' monastery — charts the transformation of this extraordinary medieval site from a monastic center to a modern cultural heritage across nine centuries. I contributed a co-authored, peer-reviewed chapter on the medieval sacred landscape of the Conques monastery, examining how the surrounding territory was perceived, imagined, and represented in textual and material sources. The book is the principal outcome of the four-year MSCA Horizon project *Conques in the Global World: Transferring Knowledge from Material to Immaterial Heritage* (2020–2024), to which I was a contributing researcher.
