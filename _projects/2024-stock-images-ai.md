@@ -7,7 +7,7 @@ doi: "https://research.rug.nl/files/1461694983/11.-Romele-et-al.pdf"
 doi_label: "Download PDF"
 extra_url: "https://www.eticapubblica.it/alberto-romele-dario-rodighiero-sabina-rosenbergova-ethical-and-aesthetical-questions-on-stock-images-the-case-of-ais-depictions/"
 extra_label: "Journal page"
-img: "stock-images-ai.png"
+img: "Ethical-and-Aesthetical-Questions-on-Stock-Images.webp"
 contribution: "Co-authored article · Peer-reviewed"
 citation: "Lessico di Etica Pubblica, vol. 2 · pp. 108–123 · 2024"
 order: 3
