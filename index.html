@@ -120,22 +120,33 @@
 
     /* Entry links — below description */
     .entry-links {
-      margin-top: 0.85rem;
+      margin-top: 0.9rem;
       display: flex;
       flex-wrap: wrap;
-      gap: 0.3rem 0;
+      gap: 0.4rem;
     }
     .entry-links a {
-      font-size: var(--sm);
+      display: inline-block;
+      font-size: var(--xs);
+      font-family: var(--font);
       color: rgba(0,0,0,0.5);
-      text-decoration: underline;
-      text-underline-offset: 2px;
+      border: 1px solid rgba(0,0,0,0.22);
+      border-radius: 2px;
+      padding: 0.18rem 0.5rem;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      transition: color 0.12s, border-color 0.12s, background 0.12s;
     }
-    .entry-links a:hover { color: #111; }
-    .entry-links .sep {
-      color: rgba(0,0,0,0.25);
-      margin: 0 0.5rem;
-      font-size: var(--sm);
+    .entry-links a::after {
+      content: " ↗";
+      font-size: 0.75em;
+      opacity: 0.6;
+    }
+    .entry-links a:hover {
+      color: #111;
+      border-color: rgba(0,0,0,0.55);
+      background: rgba(0,0,0,0.03);
+      text-decoration: none;
     }
 
     /* ── Right: sticky sidebar ── */
@@ -230,19 +241,13 @@
           </div>
           {% if project.doi or project.tool_url or project.funded_by %}
           <div class="entry-links">
-            {% assign shown = 0 %}
             {% if project.doi %}
-              {% if shown > 0 %}<span class="sep">·</span>{% endif %}
               <a href="{{ project.doi }}" target="_blank">{{ project.doi_label | default: "Link" }}</a>
-              {% assign shown = shown | plus: 1 %}
             {% endif %}
             {% if project.tool_url %}
-              {% if shown > 0 %}<span class="sep">·</span>{% endif %}
               <a href="{{ project.tool_url }}" target="_blank">{{ project.tool_label | default: "Tool" }}</a>
-              {% assign shown = shown | plus: 1 %}
             {% endif %}
             {% if project.funded_by %}
-              {% if shown > 0 %}<span class="sep">·</span>{% endif %}
               <a href="{{ project.funded_by }}" target="_blank">Funded by MSCA</a>
             {% endif %}
           </div>
