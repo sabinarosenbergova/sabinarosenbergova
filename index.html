@@ -19,6 +19,7 @@
       --xs: 0.72rem;
       --sm: 0.8rem;
       --base: 0.88rem;
+      --color-text-secondary: rgba(0,0,0,0.5);
     }
     html { font-size: 16px; }
     body {
@@ -114,12 +115,13 @@
 
     /* Col 2: contribution line + description */
     .col-mid .contribution {
-      font-family: var(--font-serif);
+      font-family: 'EB Garamond', serif;
+      font-size: 15px;
       font-style: italic;
-      color: #2D6A5A;
+      color: var(--color-text-secondary);
       border-left: 2px solid #2D6A5A;
-      padding-left: 0.55rem;
-      margin-left: 0;
+      border-radius: 0;
+      padding-left: 10px;
       margin-bottom: 1.2em;
       line-height: 1.4;
     }
