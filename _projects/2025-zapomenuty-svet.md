@@ -6,6 +6,8 @@ type: article
 authors: "Sabina Rosenbergova"
 doi: "https://www.revize-casopis.cz/vsechny-clanky/zapad-vsechny-clanky/zapomenuty-svet/)"
 doi_label: "Open Access"
+video_url: "https://www.revize-casopis.cz/mediateka/☆-𝙧𝙚𝙫𝙞𝙯𝙚-a-jejich-autori-☆-sabina-rosenbergova/"
+video_label: "Video"
 funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
 img: "zapomenuty-svet.png"
 contribution: "Sole author · Public essay"

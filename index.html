@@ -257,7 +257,7 @@
           <div class="desc">
             {{ project.content | markdownify }}
           </div>
-          {% if project.doi or project.tool_url or project.funded_by %}
+          {% if project.doi or project.tool_url or project.funded_by or project.extra_url or project.report_url or project.video_url %}
           <div class="entry-links">
             {% if project.doi %}
               <a href="{{ project.doi }}" target="_blank">{{ project.doi_label | default: "Link" }}</a>
@@ -273,6 +273,9 @@
             {% endif %}
             {% if project.report_url %}
               <a href="{{ project.report_url }}" target="_blank">Report</a>
+            {% endif %}
+            {% if project.video_url %}
+              <a href="{{ project.video_url }}" target="_blank">{{ project.video_label | default: "Video" }}</a>
             {% endif %}
           </div>
           {% endif %}
