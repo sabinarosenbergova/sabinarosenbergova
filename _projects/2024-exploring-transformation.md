@@ -7,7 +7,7 @@ authors: "Sabina Rosenbergova"
 affiliation: "Center for Religion and Heritage, University of Groningen"
 funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
 img: "exploring-transformation.png"
-contribution: "Principal investigator — MSCA Postdoctoral Fellowship"
+contribution: "MSCA Postdoctoral Fellow · Principal Investigator"
 citation: "Postdoctoral research project · Center for Religion and Heritage · University of Groningen · 2024–2028"
 order: 4
 ---

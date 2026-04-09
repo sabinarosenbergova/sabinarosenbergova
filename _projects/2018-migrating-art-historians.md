@@ -9,7 +9,7 @@ doi_label: "Purchase"
 tool_url: "https://www.academia.edu/38013127/Migrating_Art_Historians"
 tool_label: "Read Introduction"
 img: "migrating-art-historians.png"
-contribution: "Co-editor, contributing author, and participant in the 1500 km pilgrimage walk"
+contribution: "Co-editor · Contributing author · 1500 km pilgrimage walk"
 citation: "Edited volume · Rome / Brno · 2018"
 order: 8
 ---

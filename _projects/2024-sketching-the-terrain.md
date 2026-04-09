@@ -7,7 +7,7 @@ authors: "Andrew Irving, Shanade Barnabas, Sabina Rosenbergova, Lidewijde de Jon
 doi: "[centre-for-religion-and-heritage](https://www.rug.nl/research/centre-for-religious-studies/research-centres/centre-religion-heritage/?lang=en)"
 doi_label: "Learn More"
 img: "sketching-the-terrain.png"
-contribution: "Co-organized symposium and participated in opening panel discussion"
+contribution: "Co-convener · Speaker"
 citation: "Symposium · University of Groningen · 16 October 2024"
 order: 3
 ---

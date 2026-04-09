@@ -6,7 +6,7 @@ type: grant
 authors: "Sabina Rosenbergova"
 funded_by: "https://www.biblhertz.it"
 img: "sacred-space-and-landscape.png"
-contribution: "Sole researcher — Pre-doctoral Fellowship at Bibliotheca Hertziana, Max-Planck Institute, Rome"
+contribution: "Pre-Doctoral Fellow · Bibliotheca Hertziana, Max-Planck Institute"
 citation: "Research fellowship · Bibliotheca Hertziana, Max-Planck Institute · Rome · 2022"
 order: 7
 ---
