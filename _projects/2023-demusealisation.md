@@ -10,7 +10,7 @@ doi_label: "Learn More"
 img: "demusealisation.png"
 contribution: "Co-convener · Speaker"
 citation: "Symposium · Museum Catharijneconvent, Utrecht · 22–23 March 2023"
-order: 6
+order: 7
 ---
 
 This symposium and workshop centred on religious objects that have been permanently or temporarily musealized.

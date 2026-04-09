@@ -11,7 +11,7 @@ tool_label: "Interactive Map"
 img: "digital-heritage-mapping.png"
 contribution: "Sole author · Interactive digital tool"
 citation: "Convivium, vol. 10 · 2023"
-order: 5
+order: 6
 ---
 
 This study explores the *Liber Miraculorum sanctae Fidis*, a collection of stories recording the miraculous deeds of St Foy, the patron saint of Conques. It examines the significance of the precise geographical references in the text and analyzes the motivations and perspectives of the multiple authors who compiled the *Liber Miraculorum* in the eleventh century. By developing a topographical map of the mentioned locations, the study investigates the relationship between the monastic community, their patron saint, and the surrounding lands.

@@ -9,7 +9,7 @@ doi_label: "Learn More"
 img: "sketching-the-terrain.png"
 contribution: "Co-convener · Speaker"
 citation: "Symposium · University of Groningen · 16 October 2024"
-order: 3
+order: 4
 ---
 
 The Groningen Heritage Network, in partnership with the Rudolf Agricola School's Environmental Heritage Research Group, hosted this symposium focused on diverse perspectives on heritage.

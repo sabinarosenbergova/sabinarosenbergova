@@ -9,7 +9,7 @@ funded_by: "https://marie-sklodowska-curie-actions.ec.europa.eu/"
 img: "exploring-transformation.png"
 contribution: "MSCA Postdoctoral Fellow · Principal Investigator"
 citation: "Postdoctoral research project · Center for Religion and Heritage · University of Groningen · 2024–2028"
-order: 4
+order: 5
 ---
 
 This project examines the historical transformation of female religious spaces and objects into modern museum contexts. In the 18th and 19th centuries, numerous female monasteries in Europe were abolished during secularization, leading to the reinvention of their spaces as museums and the incorporation of sacred objects into exhibitions. As a result, the cultural memory of these spaces as women's convents was erased.

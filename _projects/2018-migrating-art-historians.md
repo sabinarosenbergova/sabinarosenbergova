@@ -11,7 +11,7 @@ tool_label: "Read Introduction"
 img: "migrating-art-historians.png"
 contribution: "Co-editor · Contributing author · 1500 km pilgrimage walk"
 citation: "Edited volume · Rome / Brno · 2018"
-order: 8
+order: 9
 ---
 
 Is it possible to reconstruct the feeling of a medieval pilgrim walking towards the sacred? No, it is not. And yet, the experimental project *Migrating Art Historians* sought to delve into this impossibility. Journeying by foot over more than 1500km, twelve modern pilgrims—students and scholars from Masaryk University—reached some of the most impressive artistic monuments of medieval France.
