@@ -5,6 +5,8 @@ type: event
 authors: "Sabina Rosenbergova"
 extra_url: "https://research.rug.nl/en/activities/erasing-convent-the-museum-impulse-and-the-reframing-of-female-re/"
 extra_label: "Learn More"
+report_url: "https://www.nationalgallery.org.uk/media/czqkpygx/mghg_conference-booklet_digi_26-27_sept_2025.pdf"
+report_label: "Conference Booklet"
 img: "erasing-convent.png"
 contribution: "Conference paper · Sole presenter"
 citation: "Creating the Museum · Museums and Galleries History Group · The National Gallery, London · 27 September 2025"

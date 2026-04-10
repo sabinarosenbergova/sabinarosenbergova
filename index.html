@@ -272,7 +272,7 @@
               <a href="{{ project.extra_url }}" target="_blank">{{ project.extra_label | default: "Link" }}</a>
             {% endif %}
             {% if project.report_url %}
-              <a href="{{ project.report_url }}" target="_blank">Report</a>
+              <a href="{{ project.report_url }}" target="_blank">{{ project.report_label | default: "Report" }}</a>
             {% endif %}
             {% if project.video_url %}
               <a href="{{ project.video_url }}" target="_blank">{{ project.video_label | default: "Video" }}</a>
