@@ -6,7 +6,7 @@ type: article
 authors: "Sabina Rosenbergova"
 doi: "https://doi.org/10.1484/M.CONVISUP-EB.5.137364"
 doi_label: "Open Access"
-tool_url: "https://www.google.com/maps/d/u/0/viewer](https://www.google.com/maps/d/u/1/edit?mid=1-s1XQY6A_-YzbaPrNLQp7SX7PG0ixpJk&usp=sharing"
+tool_url: "https://www.google.com/maps/d/u/1/edit?mid=1-s1XQY6A_-YzbaPrNLQp7SX7PG0ixpJk&usp=sharing"
 tool_label: "Interactive Map"
 img: "digital-heritage-mapping.png"
 contribution: "Sole author · Interactive digital tool"

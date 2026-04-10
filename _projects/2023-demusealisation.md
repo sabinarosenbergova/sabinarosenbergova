@@ -4,7 +4,6 @@ year: 2023
 venue: "Symposium, 22–23 March 2023, Utrecht"
 type: event
 authors: "Andrew Irving & Sabina Rosenbergova"
-affiliation: "Center for Religion and Heritage, University of Groningen & Museum Catharijneconvent, Utrecht"
 doi: "https://www.rug.nl/research/centre-for-religious-studies"
 doi_label: "Learn More"
 img: "demusealisation.png"

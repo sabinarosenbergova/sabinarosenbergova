@@ -4,7 +4,7 @@ year: 2025
 venue: "Re:vize, 8#, Re: Žena a Práce"
 type: article
 authors: "Sabina Rosenbergova"
-doi: "https://www.revize-casopis.cz/vsechny-clanky/zapad-vsechny-clanky/zapomenuty-svet/)"
+doi: "https://www.revize-casopis.cz/vsechny-clanky/zapad-vsechny-clanky/zapomenuty-svet/"
 doi_label: "Open Access"
 video_url: "https://www.revize-casopis.cz/mediateka/☆-𝙧𝙚𝙫𝙞𝙯𝙚-a-jejich-autori-☆-sabina-rosenbergova/"
 video_label: "Video"
