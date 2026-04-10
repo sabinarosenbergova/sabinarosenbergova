@@ -1,5 +1,5 @@
 ---
-title: "Digital Heritage Mapping of Medieval Routes Retracing Pilgrimage to Conques through the Liber Miraculorum Sanctae Fidis"
+title: "Digital Heritage Mapping of Medieval Routes: Retracing Pilgrimage to Conques through the Liber Miraculorum Sanctae Fidis"
 year: 2023
 venue: "Convivium 10"
 type: article
