@@ -11,6 +11,6 @@ tool_label: "Interactive Map"
 img: "digital-heritage-mapping.png"
 contribution: "Sole author · Interactive digital tool"
 citation: "Convivium, vol. 10 · 2023"
-order: 6
+order: 7
 ---
 In this article I use the *Liber Miraculorum sanctae Fidis* — an 11th-century collection of miracle stories associated with the monastery of Conques — as a source for tracing medieval pilgrimage routes and exploring their heritage today. By mapping the precise geographical references in the text, I propose that the concentration of miracles and chapel foundations in the northeastern region of Conques was a deliberate monastic strategy to control the main arrival route of pilgrims. The article is accompanied by an interactive digital map I built myself, allowing users to explore the topographical and historical layers of the Liber Miraculorum and trace the routes it describes.
