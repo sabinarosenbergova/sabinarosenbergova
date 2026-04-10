@@ -257,25 +257,25 @@
           <div class="desc">
             {{ project.content | markdownify }}
           </div>
-          {% if project.doi or project.tool_url or project.funded_by or project.extra_url or project.report_url or project.video_url %}
+          {% if project.doi or project.extra_url or project.tool_url or project.video_url or project.report_url or project.funded_by %}
           <div class="entry-links">
             {% if project.doi %}
               <a href="{{ project.doi }}" target="_blank">{{ project.doi_label | default: "Link" }}</a>
             {% endif %}
+            {% if project.extra_url %}
+              <a href="{{ project.extra_url }}" target="_blank">{{ project.extra_label | default: "Learn More" }}</a>
+            {% endif %}
             {% if project.tool_url %}
               <a href="{{ project.tool_url }}" target="_blank">{{ project.tool_label | default: "Tool" }}</a>
             {% endif %}
-            {% if project.funded_by %}
-              <a href="{{ project.funded_by }}" target="_blank">Funded by MSCA</a>
-            {% endif %}
-            {% if project.extra_url %}
-              <a href="{{ project.extra_url }}" target="_blank">{{ project.extra_label | default: "Link" }}</a>
+            {% if project.video_url %}
+              <a href="{{ project.video_url }}" target="_blank">{{ project.video_label | default: "Video" }}</a>
             {% endif %}
             {% if project.report_url %}
               <a href="{{ project.report_url }}" target="_blank">{{ project.report_label | default: "Report" }}</a>
             {% endif %}
-            {% if project.video_url %}
-              <a href="{{ project.video_url }}" target="_blank">{{ project.video_label | default: "Video" }}</a>
+            {% if project.funded_by %}
+              <a href="{{ project.funded_by }}" target="_blank">Funded by MSCA</a>
             {% endif %}
           </div>
           {% endif %}
