@@ -202,12 +202,32 @@
       text-decoration: underline;
     }
     .sidebar .sidebar-links a:hover { color: #111; }
-    .sidebar .footer-label {
-      margin-top: 3rem;
+    .sidebar .portfolio-label {
       font-size: var(--xs);
-      color: rgba(0,0,0,0.2);
+      color: rgba(0,0,0,0.3);
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.6rem;
+    }
+    .sidebar .positions {
+      margin-top: 1.5rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid rgba(0,0,0,0.1);
+    }
+    .sidebar .position-item {
+      margin-bottom: 0.9rem;
+    }
+    .sidebar .position-role {
+      font-size: var(--sm);
+      font-weight: 500;
+      color: #111;
+      line-height: 1.3;
+    }
+    .sidebar .position-inst {
+      font-size: var(--xs);
+      color: rgba(0,0,0,0.45);
+      line-height: 1.4;
+      margin-top: 0.1rem;
     }
 
     /* ── Responsive ── */
@@ -289,13 +309,26 @@
 
   <!-- ── Right: Sidebar ── -->
   <aside class="sidebar">
+    <div class="portfolio-label">Academic Portfolio</div>
     <h1>Sabina<br>Rosenbergova</h1>
 
     <div class="bio">
-      <p>Sabina is an <strong>Assistant Professor of Cultural Heritage</strong> at the University of Groningen, serving the multi-disciplinary faculty of Campus Fryslan.</p>
-      <p>She is a laureate of the prestigious <strong>MSCA Postdoctoral Fellowship</strong>. Her project "Transformation of Female Religious Spaces and Objects into Modern Museum Contexts" combines <strong>art history, museum, and heritage studies</strong> with a gender lens to investigate how historical spaces and artifacts are transformed when integrated into modern cultural institutions. The <strong>Center for Religion and Heritage</strong>, within the Faculty of Religion, Culture, and Society hosts her research at the University of Groningen.</p>
-      <p>She earned her <strong>Ph.D. in Art History</strong> from Sapienza University of Rome and Masaryk University in Brno in 2023, with a thesis offering a reappraisal of 10th-century art and culture in Rome.</p>
-      <p>Sabina has a <strong>strong international research background</strong>, having contributed to projects across Italy, Czechia, France, Netherlands and the USA. She was a researcher on the MSCA Horizon Project "Conques in the Global World," a Pre-doc Fellow at the Max Planck Institute for Art History – Bibliotheca Hertziana in Rome, and a visiting scholar at CUNY in New York.</p>
+      <p>I am a heritage scholar and an art historian investigating how objects, spaces, and histories acquire new meanings as they move across time and institutions. My work asks what gets lost or (re)invented in that process, and how it shapes the ways we understand and present the past. It moves between historical research, object analysis, museum critique, and curatorial practice. Currently I focus on the gendered histories of European museum collections, tracing how female religious communities and their material legacies have been obscured in the process of heritage-making.</p>
+    </div>
+
+    <div class="positions">
+      <div class="position-item">
+        <div class="position-role">Assistant Professor of Cultural Heritage</div>
+        <div class="position-inst">Campus Fryslân · University of Groningen</div>
+      </div>
+      <div class="position-item">
+        <div class="position-role">MSCA Postdoctoral Fellow</div>
+        <div class="position-inst">Center for Religion and Heritage · University of Groningen</div>
+      </div>
+      <div class="position-item">
+        <div class="position-role">Ph.D. in Art History</div>
+        <div class="position-inst">Sapienza University of Rome &amp; Masaryk University Brno · 2023</div>
+      </div>
     </div>
 
     <div class="sidebar-links">
@@ -303,8 +336,6 @@
       <a href="https://www.linkedin.com/in/sabinarosenbergova/" target="_blank">LinkedIn</a>
       <a href="https://www.academia.edu" target="_blank">Academia.edu</a>
     </div>
-
-    <div class="footer-label">Academic Portfolio</div>
   </aside>
 
 </div>
