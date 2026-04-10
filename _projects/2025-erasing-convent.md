@@ -13,7 +13,5 @@ citation: "Creating the Museum · Museums and Galleries History Group · The Nat
 order: 3
 ---
 
-Conference paper presented at *Creating the Museum: Exploring the Museum Impulse in Local, Regional and National Contexts*, organised by the Museums and Galleries History Group and hosted at the National Gallery, London, on the occasion of its 200th anniversary.
-
-The paper examines how female convents were erased and reframed through their conversion into museum spaces across three European case studies: the Monastery of Poor Clares in Prague (now part of the National Gallery), the former Monastery of San Salvatore in Brescia (now Museo di Santa Giulia), and the Essen Abbey (now the Essen Cathedral Treasury). Each case reveals a dual marginalisation — as religious institutions dissolved during secularisation, and as female-led spaces whose histories were displaced by gender-neutral or male-dominated museum narratives.
+Presented at *Creating the Museum: Exploring the Museum Impulse in Local, Regional and National Contexts*, a conference organised by the Museums and Galleries History Group and hosted at the National Gallery, London, on the occasion of its 200th anniversary. In this paper I examined how female convents were erased and reframed through their transformation into museum spaces, tracing three European case studies: the Monastery of Poor Clares in Prague (now part of the National Gallery in Prague), the former Monastery of San Salvatore in Brescia (now Museo di Santa Giulia), and the Essen Abbey (now the Essen Cathedral Treasury). Each case reveals a dual marginalisation — as religious institutions dissolved during secularisation, and as female-led spaces whose histories were displaced by gender-neutral or male-dominated museum narratives.
 ---
