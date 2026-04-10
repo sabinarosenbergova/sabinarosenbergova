@@ -6,6 +6,8 @@ type: grant
 authors: "Sabina Rosenbergova"
 funded_by: "https://www.biblhertz.it"
 funded_by_label: "Bibliotheca Hertziana"
+extra_url: "https://cordis.europa.eu/project/id/101007770"
+extra_label: "Funded by MSCA"
 img: "sacred-space-and-landscape.png"
 contribution: "Pre-Doctoral Fellow · Bibliotheca Hertziana, Max-Planck Institute"
 citation: "Research fellowship · Bibliotheca Hertziana, Max-Planck Institute · Rome · 2022"
