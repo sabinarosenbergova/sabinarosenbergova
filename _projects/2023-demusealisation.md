@@ -8,7 +8,7 @@ doi: "https://research.rug.nl/en/activities/demusealisation/"
 doi_label: "Learn More"
 img: "demusealisation.png"
 contribution: "Co-convener · Workshop co-leader"
-citation: "Symposium · Workshop · University of Groningen / Museum Catharijneconvent, Utrecht · 22–23 March 2023"
+citation: "Symposium · Workshop · University of Groningen · Museum Catharijneconvent, Utrecht · 22–23 March 2023"
 order: 8
 ---
 
