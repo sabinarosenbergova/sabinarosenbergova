@@ -5,6 +5,7 @@ type: event
 authors: "Sabina Rosenbergova"
 extra_url: "https://research.rug.nl/en/activities/erasing-convent-the-museum-impulse-and-the-reframing-of-female-re/"
 extra_label: "Learn More"
+funded_by: "https://cordis.europa.eu/project/id/101147187"
 report_url: "https://www.nationalgallery.org.uk/media/czqkpygx/mghg_conference-booklet_digi_26-27_sept_2025.pdf"
 report_label: "Conference Booklet"
 img: "erasing-convent.png"
