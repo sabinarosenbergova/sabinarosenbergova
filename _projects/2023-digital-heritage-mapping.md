@@ -6,16 +6,11 @@ type: article
 authors: "Sabina Rosenbergova"
 doi: "https://doi.org/10.1484/M.CONVISUP-EB.5.137364"
 doi_label: "Open Access"
-tool_url: "https://www.google.com/maps/d/u/0/viewer"
+tool_url: "https://www.google.com/maps/d/u/0/viewer](https://www.google.com/maps/d/u/1/edit?mid=1-s1XQY6A_-YzbaPrNLQp7SX7PG0ixpJk&usp=sharing"
 tool_label: "Interactive Map"
 img: "digital-heritage-mapping.png"
 contribution: "Sole author · Interactive digital tool"
 citation: "Convivium, vol. 10 · 2023"
 order: 6
 ---
-
-This study explores the *Liber Miraculorum sanctae Fidis*, a collection of stories recording the miraculous deeds of St Foy, the patron saint of Conques. It examines the significance of the precise geographical references in the text and analyzes the motivations and perspectives of the multiple authors who compiled the *Liber Miraculorum* in the eleventh century. By developing a topographical map of the mentioned locations, the study investigates the relationship between the monastic community, their patron saint, and the surrounding lands.
-
-It specifically focuses on the northeastern region of Conques and proposes that the emphasis on miracles and the construction of chapels in this area was related to the pilgrimage boom in the mid-eleventh century and served as a strategy to control the arrival route of pilgrims. The study concludes that the *Liber Miraculorum* and similar sources are valuable for reconstructing medieval pilgrimage routes and discussing their tangible and intangible heritage.
-
-*An interactive digital tool accompanies the article, enabling users to explore different topographical and historical layers of the Liber Miraculorum Sancte Fidis.*
+In this article I use the *Liber Miraculorum sanctae Fidis* — an 11th-century collection of miracle stories associated with the monastery of Conques — as a source for tracing medieval pilgrimage routes and exploring their heritage today. By mapping the precise geographical references in the text, I propose that the concentration of miracles and chapel foundations in the northeastern region of Conques was a deliberate monastic strategy to control the main arrival route of pilgrims. The article is accompanied by an interactive digital map I built myself, allowing users to explore the topographical and historical layers of the Liber Miraculorum and trace the routes it describes.
