@@ -275,7 +275,7 @@
               <a href="{{ project.report_url }}" target="_blank">{{ project.report_label | default: "Report" }}</a>
             {% endif %}
             {% if project.funded_by %}
-              <a href="{{ project.funded_by }}" target="_blank">Funded by MSCA</a>
+              <a href="{{ project.funded_by }}" target="_blank">{{ project.funded_by_label | default: "Funded by MSCA" }}</a>
             {% endif %}
           </div>
           {% endif %}
