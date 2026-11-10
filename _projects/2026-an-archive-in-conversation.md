@@ -3,10 +3,12 @@ title: "Archives as Community Heritage: The Svalbardposten Archive in Longyearby
 year: 2026
 type: event
 authors: "Tina Rosado, Sabina Rosenbergova, Dario Rodighiero"
-doi: "https://tinarosado.github.io/longyearbyen_workshop_AUG2026/"
+doi: "https://www.articasvalbard.no/2026/workshop-talk-exploring-longyearbyen-through-the-svalbardposten-archive"
 doi_label: "Workshop"
 extra_url: "https://visap.net/2026/artwork-17.html"
 extra_label: "Installation · VISAP 2026"
+tool_url: "https://tinarosado.github.io/longyearbyen_workshop_AUG2026/"
+tool_label: "Map"
 report_url: "https://shop.datavisualizationsociety.org/products/nightingale-magazine-issue-6-time"
 report_label: "Essay · Nightingale, forthcoming"
 img: "an-archive-in-conversation.jpg"
